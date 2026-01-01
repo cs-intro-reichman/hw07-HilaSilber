@@ -10,8 +10,7 @@ public class IntToBin {
     public static String toBinary(int x) {
         String bin = "";
         if (x == 0){
-            bin = "0";
-            return bin;
+            return "0";
         }
         else{
             if (x % 2 == 0){
